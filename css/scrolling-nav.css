@@ -1,0 +1,44 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+@media(min-width:767px) {
+    .navbar {
+        top:0;
+        -webkit-transition: background .5s ease-in-out,top .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,top .5s ease-in-out;
+        transition: background .5s ease-in-out,top .5s ease-in-out;
+    }
+    .top-nav-collapse {
+        top: -100px;
+        display:block;
+        -webkit-transition: background .5s ease-in-out,top .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,top .5s ease-in-out;
+        transition: background .5s ease-in-out,top .5s ease-in-out;
+    }
+
+    #bootstrap-overrides .top-nav-collapse a.navbar-brand {
+        display: none;
+    }
+
+    #bootstrap-overrides .top-nav-collapse .fa {
+        color: transparent !important;
+    }
+
+#bootstrap-overrides @media only screen and (max-width: 767px) {
+    #bootstrap-overrides  .navbar {
+        display:none  !important;
+    }
+    #bootstrap-overrides  .top-nav-collapse {
+        display:none !important;
+    }
+
+    #bootstrap-overrides .top-nav-collapse a.navbar-brand {
+        display: none !important;
+    }
+
+    #bootstrap-overrides .top-nav-collapse .fa {
+        display:none !important;
+    }
