@@ -13,34 +13,38 @@
 
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/scrolling-nav.css">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <!-- Bootstrap -->
+<!--    <link href="css/bootstrap.min.css" rel="stylesheet">-->
+<!--    <link rel="stylesheet" href="css/scrolling-nav.css">-->
+<!--    <link rel="stylesheet" href="cover.css">-->
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
 
-    <?php include 'home.php';?>
+    <?php include 'navbar.php';?>
 
-    <div class="outer">
-        <div class="cover-container anastasia">
-            <?php include 'about.php';?>
-            <?php include 'projects.php';?>
-            <?php include 'contact-form.php';?>
-        </div>
-        <img src="images/nasta2.png">
+    <div class="container">
+        <?php include 'home.php';?>
+        <?php include 'about.php';?>
+        <?php include 'projects.php';?>
+        <?php include 'contact-form.php';?>
+
     </div>
+    <img src="images/nasta2.png" class="nastenka">
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/scrolling-nav.js"></script>

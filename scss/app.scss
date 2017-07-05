@@ -1,1 +1,11 @@
-body { color: #fff;}
+$dark:      #232526;
+$pink:      #ff99df;
+
+@import "bootstrap";
+
+@import "default";
+@import "navbar";
+@import "home";
+@import "about";
+@import "projects";
+@import "contact-form";

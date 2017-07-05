@@ -1,14 +1,34 @@
-<div id="projects">
+<section id="projects">
+    <div class="inner">
 
-    <h1 class="anastasia-heading">My projects.</h1>
+        <h1>My projects.</h1>
 
-    <div class="media">
-        <div class="media-body">
-            <h4 class="media-heading"><a href="//kasablanka.cz" target="_blank">Kasablanka.cz</a> - Luxury apartments in Prague <i>(in work)</i></h4>
-            <div class="radek">
-                <a href="//kasablanka.cz" target="_blank"><div class="col-sm-12 col-md-6 kasablanka-img">
-                    </div></a>
-                <div class="col-sm-12 col-md-6 inner">
+        <div class="item">
+            <h2><a href="//yuristi-volgograd.ru" target="_blank">Yuristi-volgograd.ru</a> - Law firm in Volgograd, Russia</h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="//yuristi-volgograd.ru" target="_blank" class="yuristi img"></a>
+                </div>
+                <div class="col-sm-8">
+                    <ul>
+                        <li>Sass</li>
+                        <li>Bootstrap 3</li>
+                        <li>No template, no CMS</li>
+                        <li>"Landing page" appereance</li>
+                        <li>Lightbox gallery</li>
+                        <li>Responsivity</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <h2><a href="//kasablanka.cz" target="_blank">Kasablanka.cz</a> - Luxury apartments in Prague</h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="//kasablanka.cz" target="_blank" class="kasablanka img"></a>
+                </div>
+                <div class="col-sm-8">
                     <p>First experience with Bootstrap.</p>
                     <ul>
                         <li>No template, no CMS</li>
@@ -16,42 +36,19 @@
                         <li>"Landing page" appereance</li>
                         <li>Image carousel</li>
                         <li>Lightbox gallery</li>
-                        <li>Responsivity (in work)</li>
+                        <li>Responsivity</li>
                     </ul>
                 </div>
             </div>
         </div>
 
-    </div>
-
-    <div class="media">
-        <div class="media-body">
-            <h4 class="media-heading"><a href="//segwayer.cz" target="_blank">Segwayer.cz</a> - Segwayer Eco Tours</h4>
-            <div class="radek">
-                <a href="//segwayer.cz" target="_blank"><div class="col-sm-12 col-md-6 segwayer-img">
-                    </div></a>
-                <div class="col-sm-12 col-md-6 inner">
-                    <p>This project helped me to improve my knowledge of HTML, CSS and Javascript.</p>
-                    <ul>
-                        <li>Pure code (no template, no CMS, no Bootstrap)</li>
-                        <li>"Landing page" appereance</li>
-                        <li>Video background</li>
-                        <li>Lightbox gallery</li>
-                        <li>Mobile version: <a href="//m.segwayer.cz" target="_blank">m.segwayer.cz</a></li>
-                    </ul>
+        <div class="item">
+            <h2><a href="//tesorogroup.cz" target="_blank"><a href="//tesorogroup.cz" target="_blank">Tesorogroup.cz</a> - Luxury vines from Fattoria Monte Fasolo</h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="//tesorogroup.cz" target="_blank" class="tesoro img"></a>
                 </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="media">
-        <div class="media-body">
-            <h4 class="media-heading"><a href="//tesorogroup.cz" target="_blank">Tesorogroup.cz</a> - Luxury vines from Fattoria Monte Fasolo</h4>
-            <div class="radek">
-                <a href="//tesorogroup.cz" target="_blank"><div class="col-sm-12 col-md-6 tesoro-img">
-                    </div></a>
-                <div class="col-sm-12 col-md-6 inner">
+                <div class="col-sm-8">
                     <ul>
                         <li>CMS Joomla! 3</li>
                         <li>Multilanguage</li>
@@ -61,6 +58,6 @@
                 </div>
             </div>
         </div>
-    </div>
 
-</div>
+    </div>
+</section>

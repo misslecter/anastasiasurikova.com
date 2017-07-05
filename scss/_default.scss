@@ -1,0 +1,82 @@
+html, body {
+  background: $dark;
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+  -webkit-transition: all .5s ease;
+  position: relative;
+}
+
+.container {
+
+  margin: auto;
+  position: relative;
+  z-index: 1;
+
+  @media (max-width: $screen-md-max) {
+    width: 100%;
+  }
+
+  @media (min-width: $screen-lg-min) {
+    width: 1000px;
+  }
+
+}
+
+h1 {
+  font-size: 48pt;
+}
+
+a {
+  color: $pink;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding-bottom: 5px;
+  -webkit-transition: all .5s ease;
+  &:hover, &:focus, &:active {
+    color: $pink;
+    text-decoration: none;
+    border-bottom: 1px solid;
+  }
+}
+
+button, .button {
+  line-height: 4;
+  padding: 0 40px;
+  background-color: #ff99df;
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+
+  color: #232526;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  &:hover, &:focus, &:active {
+    background-color: lighten($pink, 5%);
+    text-decoration: none;
+    color: $dark;
+  }
+}
+
+section {
+  display: table;
+  height: calc(100vh);
+  min-height: calc(100vh);
+  width: 100%;
+  padding: 100px 0;
+  .inner {
+    display: table-cell;
+    vertical-align: middle;
+    h1 {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.nastenka {
+  position: absolute;
+  bottom: 0;
+  left: -30px;
+}
