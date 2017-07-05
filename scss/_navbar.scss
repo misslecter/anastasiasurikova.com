@@ -5,6 +5,10 @@
   height: 50px;
   width: 100%;
 
+  @media (max-width: $screen-sm-max) {
+    display: none;
+  }
+
   .logo {
     float: left;
     width: 40%;

@@ -2,7 +2,7 @@
     <div class="inner">
 
         <h1>Contact me.</h1>
-        <form id="contact-form" method="post" action="contact.php" role="form">
+        <form id="contact-form" method="post" action="contact.php" role="form" class="col-xs-10">
 
             <div class="messages"></div>
 
