@@ -14,10 +14,6 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
-    <!-- Bootstrap -->
-<!--    <link href="css/bootstrap.min.css" rel="stylesheet">-->
-<!--    <link rel="stylesheet" href="css/scrolling-nav.css">-->
-<!--    <link rel="stylesheet" href="cover.css">-->
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
