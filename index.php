@@ -26,9 +26,6 @@
     <div class="container">
         <?php include 'home.php';?>
         <?php include 'about.php';?>
-        <?php include 'projects.php';?>
-        <?php include 'contact-form.php';?>
-
     </div>
     <img src="images/nasta2.png" class="nastenka">
 
