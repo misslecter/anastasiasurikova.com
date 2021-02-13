@@ -1,15 +1,10 @@
 {
-  "dependencies": {
-    "bootstrap": "^4.3.1",
-    "jquery": "^3.4.1",
-    "node": "^12.9.1",
-    "popper": "^1.0.1",
-    "popper.js": "^1.15.0"
-  },
-  "devDependencies": {
-    "cssnano": "^4.1.10",
-    "sass": "^1.22.10"
-  },
+  "name": "anastasia-surikova-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:misslecter/Anastasiasurikova.com.git",
+  "author": "anastasia <surikova.anastasia@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html --out-dir docs --public-url ."
