@@ -1,4 +1,4 @@
-# Autodoprava Watierová
+# My personal website
 
 ## Parcel.js
 
