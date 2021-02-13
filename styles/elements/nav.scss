@@ -18,18 +18,18 @@ nav {
   }
 
   a {
-    padding: 15px 30px;
+    padding: 15px 45px 15px 30px;
     position: relative;
-    right: 0;
-    transition: right 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
     border-bottom: none !important;
     font-family: $font-family-secondary;
     font-size: 1.2em;
 
     &.active {
-      right: 15px;
       font-weight: 700;
       color: $pink;
+
+      background-color: rgba($white, 0.1);
     }
 
     &:hover {
