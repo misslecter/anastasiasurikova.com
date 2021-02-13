@@ -21,16 +21,18 @@ nav {
     padding: 15px 30px;
     position: relative;
     right: 0;
-    transition: right 0.2s ease-in-out;
+    transition: right 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
     border-bottom: none !important;
+    font-family: $font-family-secondary;
 
     &.active {
       right: 15px;
       font-weight: 700;
+      color: $pink;
     }
 
     &:hover {
-      font-weight: 700;
+      opacity: .5;
     }
   }
 }
