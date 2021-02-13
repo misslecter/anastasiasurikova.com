@@ -24,6 +24,7 @@ nav {
     transition: right 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
     border-bottom: none !important;
     font-family: $font-family-secondary;
+    font-size: 1.2em;
 
     &.active {
       right: 15px;
