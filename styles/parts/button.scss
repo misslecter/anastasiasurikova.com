@@ -1,0 +1,17 @@
+.button, button, [role="button"] {
+  background: $pink;
+  color: $dark;
+  line-height: 50px;
+  font-weight: 700;
+  min-width: 220px;
+  display: flex;
+  justify-content: center;
+  border: none !important;
+  transition: background-color 0.2s ease-in-out;
+
+  margin-top: 40px;
+
+  &:hover {
+    background-color: darken($pink, 10%);
+  }
+}
