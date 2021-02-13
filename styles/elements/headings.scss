@@ -4,7 +4,7 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 3rem;
   margin-bottom: 30px;
   font-weight: 700;
 
@@ -16,12 +16,13 @@ h1 {
 
 h2 {
   font-weight: 300;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   margin-bottom: 30px;
   margin-top: 50px;
 
   &:before {
     content: '.';
+    font-size: 3rem;
     font-weight: 700;
     color: $pink;
     margin-right: 10px;

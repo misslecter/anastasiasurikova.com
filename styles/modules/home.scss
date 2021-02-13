@@ -1,0 +1,33 @@
+.home {
+  font-size: 150%;
+  max-width: 960px;
+
+  p {
+    line-height: 2;
+  }
+
+  .arrow {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-top: 3px solid $pink;
+    border-right: 3px solid $pink;
+    transform: rotate(45deg);
+    margin-bottom: -3px;
+    animation: arrowBounce 1.5s ease-in-out forwards;
+    animation-iteration-count: infinite;
+  }
+}
+
+@keyframes arrowBounce {
+  0% {
+    margin-left: 0;
+  }
+  50% {
+    margin-left: 10px;
+  }
+
+  100% {
+    margin-left: 0px;
+  }
+}
