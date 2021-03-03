@@ -7,4 +7,15 @@ section {
   justify-content: center;
 
   align-items: flex-start;
+
+  @include media-breakpoint-down(md) {
+    min-height: auto;
+    max-height: none;
+    padding: 40px 30px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    min-height: 50vh;
+    max-height: 1000px;
+  }
 }

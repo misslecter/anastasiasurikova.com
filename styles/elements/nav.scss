@@ -4,6 +4,10 @@ nav {
   top: 50%;
   transform: translateY(-50%);
 
+  @include media-breakpoint-down(md) {
+    display: none;
+  }
+
   ul {
     display: flex;
     flex-direction: column;
