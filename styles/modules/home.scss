@@ -1,6 +1,5 @@
 .home {
   font-size: 150%;
-  max-width: 960px;
 
   p {
     line-height: 2;
@@ -36,7 +35,7 @@
   }
 }
 
-@keyframes arrowBounce {
+@keyframes arrowBounceX {
   0% {
     margin-left: 0;
   }
