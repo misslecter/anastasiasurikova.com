@@ -15,25 +15,42 @@ nav {
   li {
     margin: 15px 0;
     text-align: right;
+
+    a {
+      padding: 15px 45px 15px 30px;
+      position: relative;
+      transition: background-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+      border-bottom: none !important;
+      font-family: $font-family-secondary;
+      font-size: 1.2em;
+
+      &.active {
+        font-weight: 700;
+        color: $pink;
+
+        background-color: rgba($white, 0.1);
+      }
+
+      &:hover {
+        opacity: .5;
+      }
+    }
   }
 
-  a {
-    padding: 15px 45px 15px 30px;
-    position: relative;
-    transition: background-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
-    border-bottom: none !important;
+  .button {
+    justify-content: flex-start;
+    margin-left: auto;
+    padding: 0 45px 0 30px;
+    width: 100px;
+    cursor: pointer;
+
     font-family: $font-family-secondary;
     font-size: 1.2em;
 
-    &.active {
-      font-weight: 700;
-      color: $pink;
-
-      background-color: rgba($white, 0.1);
-    }
+    transition: width 0.2s ease-in-out;
 
     &:hover {
-      opacity: .5;
+      width: 120px;
     }
   }
 }

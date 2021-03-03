@@ -3,7 +3,6 @@
   color: $dark;
   line-height: 50px;
   font-weight: 700;
-  min-width: 220px;
   display: flex;
   justify-content: center;
   border: none !important;
@@ -13,5 +12,9 @@
 
   &:hover {
     background-color: darken($pink, 10%);
+  }
+
+  &:focus {
+    outline: none;
   }
 }
