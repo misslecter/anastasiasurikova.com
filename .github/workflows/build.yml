@@ -13,8 +13,8 @@ jobs:
 
       - name: Build 🔧
         run: |
-        yarn install
-        yarn run build
+          yarn install
+          yarn run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.0.0
